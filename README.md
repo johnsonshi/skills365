@@ -59,7 +59,8 @@ skills365/
 │   │   ├── SKILL.md
 │   │   ├── feature-area-skill-resources/
 │   │   ├── investigation-reports/
-│   │   └── dataexplorer-docs/             # Git submodule
+│   │   └── submodules/
+│   │       └── dataexplorer-docs/         # Git submodule
 │   ├── pptx-azure/                        # PowerPoint skill
 │   │   └── SKILL.md
 │   └── deep-knowledge-skill-creator/      # Meta-skill for creating skills

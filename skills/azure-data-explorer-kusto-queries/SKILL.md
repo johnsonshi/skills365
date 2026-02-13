@@ -251,7 +251,7 @@ Desktop, CLI, and web tools.
 
 ### Official Documentation
 The complete Microsoft documentation is available as a submodule at:
-`dataexplorer-docs/`
+`submodules/dataexplorer-docs/`
 
 ### Investigation Reports
 Detailed analysis from the skill creation process:
