@@ -271,7 +271,11 @@ description: "Single-line description with trigger phrases and use conditions."
 Frontmatter safety rules:
 - Always keep `description` on a single line (no `|` block scalar, no folded multiline values)
 - Always quote `description` so YAML-special characters (for example `:`, `#`, `[`, `]`) are treated as plain text
-- If the description includes double quotes, escape them as `\"` (or switch to single-quoted YAML and escape apostrophes as `''`)
+- Pick a quote style that minimizes escaping:
+  - Use double quotes if the text contains apostrophes (`'`)
+  - Use single quotes if the text contains many double quotes
+- If using double quotes, escape inner double quotes as `\"`
+- If using single quotes, escape apostrophes by doubling them (`''`)
 
 2. **Overview**
    - What this skill covers (the product/technology)
