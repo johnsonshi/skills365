@@ -1,6 +1,16 @@
 # skills365
 
-A collection of productivity skills for AI coding agents. These skills provide specialized knowledge and workflows for common enterprise tasks.
+Productivity skills for Microsoft ecosystem professionals.
+
+## Why This Exists
+
+Professionals working deeply inside the Microsoft ecosystem — including Microsoft employees, vendors, MVPs, and ecosystem partners — often face repetitive tasks:
+
+- **Data tasks**: ADX/KQL queries, dashboards, ingestion patterns
+- **Presentation needs**: Slide decks with Microsoft/Azure branding
+- **Knowledge workflows**: Extracting and encoding expertise from docs and codebases
+
+**skills365** encodes these workflows into shareable, installable skills for AI coding agents (GitHub Copilot, Claude Code, etc.) that boost productivity and consistency for anyone working day-to-day in the Microsoft tech stack.
 
 ## Available Skills
 
