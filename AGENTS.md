@@ -21,8 +21,11 @@ Each skill in `skills/` follows a standard format:
 ```
 skills/<skill-name>/
 ├── SKILL.md                       # Main skill file with frontmatter
-├── feature-area-skill-resources/  # Detailed resources by topic (optional)
 ├── investigation-reports/         # Research artifacts (optional)
+│   ├── repository-layout/         # Directory layout analysis report
+│   ├── feature-overview/          # Feature taxonomy and discovery
+│   └── feature-in-depth/          # Deep-dive reports by feature area
+├── feature-area-skill-resources/  # Detailed resources by topic (optional)
 └── submodules/                    # Git submodules with source docs (optional)
 ```
 
@@ -31,9 +34,7 @@ skills/<skill-name>/
 ```yaml
 ---
 name: skill-name
-description: |
-  Description with trigger phrases.
-  Use when: (1) condition, (2) condition, (3) keyword triggers.
+description: Single-line description with trigger phrases and use conditions.
 ---
 
 # Skill Title

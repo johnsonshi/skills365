@@ -1,3 +1,8 @@
+---
+name: pptx-azure
+description: Azure-specific PowerPoint guidance and assets for creating/editing .pptx presentations; use with the base pptx skill when users need Azure-branded slide design, architecture visuals, icons, color palettes, storytelling structure, and speaker-note-driven slide workflows.
+---
+
 # pptx-azure
 
 Azure-specific assets for PowerPoint presentations.

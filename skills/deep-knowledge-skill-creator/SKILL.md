@@ -1,14 +1,6 @@
 ---
 name: deep-knowledge-skill-creator
-description: |
-  Multi-phase investigation workflow that converts documentation repositories into comprehensive skills.
-  Use when: (1) User wants to create a skill from a documentation repo or knowledge base, (2) User says
-  "investigate", "refresh", "deep dive", "encode knowledge", or "create skill from docs", (3) User has
-  a git submodule containing reference documentation that should become a skill, (4) User wants to
-  understand a large codebase or documentation set systematically. This skill orchestrates agent teams
-  through 5 phases: submodule setup, repository layout analysis, feature discovery, in-depth research,
-  and skill generation. Output includes investigation reports and a complete skill with parent SKILL.md
-  plus feature-area-specific markdown files.
+description: Multi-phase workflow for converting documentation repositories into comprehensive skills; use when creating or refreshing skills from docs/codebases, investigating large repos systematically, or turning submodule knowledge into investigation reports plus generated skill content.
 ---
 
 # Deep Knowledge Skill Creator
