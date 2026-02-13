@@ -34,13 +34,20 @@ skills/<skill-name>/
 ```yaml
 ---
 name: skill-name
-description: Single-line description with trigger phrases and use conditions.
+description: "Single-line description with trigger phrases and use conditions."
 ---
 
 # Skill Title
 
 Content organized by feature area...
 ```
+
+### Frontmatter Rules
+
+- `description` must be a single-line YAML string (no multiline `|` or folded styles)
+- Always wrap `description` in quotes so YAML-special characters like `:` are safe
+- Escape inner double quotes as `\"`; if using single quotes instead, escape apostrophes as `''`
+- Ensure opening and closing quotes match and do not conflict with unescaped inner quotes
 
 ## Using Skills
 

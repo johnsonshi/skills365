@@ -1,6 +1,6 @@
 ---
 name: azure-data-explorer-kusto-queries
-description: Comprehensive guide for Azure Data Explorer (ADX) and Kusto Query Language (KQL); use when writing/optimizing KQL queries, setting up ingestion, building dashboards, doing time-series/ML analysis, configuring management/security, or when users mention Kusto, KQL, ADX, Azure Data Explorer, or log analytics queries.
+description: "Comprehensive guide for Azure Data Explorer (ADX) and Kusto Query Language (KQL); use when writing/optimizing KQL queries, setting up ingestion, building dashboards, doing time-series/ML analysis, configuring management/security, or when users mention Kusto, KQL, ADX, Azure Data Explorer, or log analytics queries."
 ---
 
 # Azure Data Explorer & Kusto Query Language

@@ -1,6 +1,6 @@
 ---
 name: deep-knowledge-skill-creator
-description: Multi-phase workflow for converting documentation repositories into comprehensive skills; use when creating or refreshing skills from docs/codebases, investigating large repos systematically, or turning submodule knowledge into investigation reports plus generated skill content.
+description: "Multi-phase workflow for converting documentation repositories into comprehensive skills; use when creating or refreshing skills from docs/codebases, investigating large repos systematically, or turning submodule knowledge into investigation reports plus generated skill content."
 ---
 
 # Deep Knowledge Skill Creator
@@ -257,7 +257,21 @@ The parent SKILL.md should include:
 
 1. **Frontmatter**
    - `name`: The skill name
-   - `description`: Comprehensive description with triggers
+   - `description`: Single-line quoted string with trigger phrases
+
+Use this exact safe pattern:
+
+```yaml
+---
+name: <skill-name>
+description: "Single-line description with trigger phrases and use conditions."
+---
+```
+
+Frontmatter safety rules:
+- Always keep `description` on a single line (no `|` block scalar, no folded multiline values)
+- Always quote `description` so YAML-special characters (for example `:`, `#`, `[`, `]`) are treated as plain text
+- If the description includes double quotes, escape them as `\"` (or switch to single-quoted YAML and escape apostrophes as `''`)
 
 2. **Overview**
    - What this skill covers (the product/technology)
@@ -288,6 +302,7 @@ feature-area-skill-resources/
 Before completing Phase 4:
 
 - [ ] SKILL.md has proper frontmatter with name and description
+- [ ] SKILL.md `description` is a single-line quoted YAML string
 - [ ] SKILL.md description includes trigger phrases
 - [ ] All feature areas have corresponding resources
 - [ ] Cross-references between SKILL.md and feature resources work
